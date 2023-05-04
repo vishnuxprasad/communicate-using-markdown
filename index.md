@@ -6,3 +6,8 @@
 ###### H6 Header
 Edited the file with headers.
 ![Image of Topguntocat](https://octodex.github.com/images/topguntocat.png)
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
